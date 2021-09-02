@@ -7,6 +7,11 @@ module.exports = {
 				'roboto': ['Roboto', 'sans-serif']
 			}
 		},
+		colors: {
+			primary: 'var(--color-primary)',
+      secondary: 'var(--color-secondary)',
+			white: 'var(--color-white)',
+		}
   },
   variants: {
     extend: {},
