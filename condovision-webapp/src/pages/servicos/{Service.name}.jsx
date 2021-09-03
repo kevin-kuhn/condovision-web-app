@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-const Servicos = props => {
+const ServicesPage = props => {
 	console.log(props.data)
 
 	return <div>Servico</div>
@@ -18,4 +18,4 @@ export const query = graphql`
 	}
 `
 
-export default Servicos
+export default ServicesPage

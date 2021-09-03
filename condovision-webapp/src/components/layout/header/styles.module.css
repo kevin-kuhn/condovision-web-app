@@ -1,0 +1,27 @@
+.li {
+	@apply flex 
+		h-full
+		items-center 
+		justify-center 
+		p-3;
+}
+
+.li:hover .h3 {
+	@apply text-primary;
+}
+
+.h3 {
+	@apply cursor-pointer;
+}
+
+.header {
+	@apply flex h-20 bg-white fixed w-full shadow-md justify-between items-center;
+}
+
+.nav {
+	@apply w-1/3 justify-self-end;
+}
+
+.ul {
+	@apply flex h-full items-center justify-end pr-5;
+}

@@ -1,6 +1,9 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
+	experimental: {
+    applyComplexClasses: true,
+	},
   theme: {
     extend: {
 			fontFamily: {
