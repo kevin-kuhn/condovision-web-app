@@ -15,7 +15,7 @@
 }
 
 .header {
-	@apply flex h-20 bg-white fixed w-full shadow-md justify-between items-center;
+	@apply flex h-24 bg-white fixed w-full shadow-md justify-between items-center;
 }
 
 .nav {

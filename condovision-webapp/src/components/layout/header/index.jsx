@@ -8,7 +8,7 @@ const NavOption = ({ children, isSelected }) => {
 	return (
 		<li className={styles.li}>
 			<h3
-				className={`${styles.h3} text-md ${
+				className={`${styles.h3} text-lg ${
 					isSelected ? "text-primary" : "text-secondary"
 				}`}
 			>
