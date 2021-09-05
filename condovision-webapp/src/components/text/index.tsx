@@ -1,7 +1,8 @@
 import React from "react"
+import * as styles from "./styles.module.css"
 
 const Text = ({ children, className }) => {
-	return <p className={`text-secondary text-base ${className ?? ''}`}>{children}</p>
+	return <p className={`${styles.p} ${className ?? ''}`}>{children}</p>
 }
 
 export default Text

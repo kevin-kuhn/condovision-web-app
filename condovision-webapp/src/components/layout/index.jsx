@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet"
 import Header from "./header"
 import Footer from "./footer"
 
+import * as styles from "./styles.module.css"
+
 //TODO: AJUSTAR META TAGS
 const Layout = ({ title = "Condovision - Sistemas Eletrônicos", children }) => {
 	return (
@@ -21,7 +23,7 @@ const Layout = ({ title = "Condovision - Sistemas Eletrônicos", children }) => 
 			</Helmet>
 
 			<Header />
-			<main className='pt-7 pb-7 h-auto min-h-screen'>{children}</main>
+			<main className={styles.main}>{children}</main>
 			<Footer />
 		</>
 	)

@@ -1,8 +1,47 @@
+.h3 {
+	@apply cursor-pointer;
+}
+
+.header {
+	@apply flex 
+		h-24 
+		bg-white 
+		fixed 
+		w-full 
+		shadow-md 
+		justify-between 
+		items-center;
+}
+
+.div {
+	@apply cursor-pointer;
+}
+
+.hamburger {
+	@apply p-4;
+	color: var(--color-primary);
+}
+
+.nav {
+	@apply absolute w-2/3 right-0 z-50;
+	transform: translateY(75%);
+}
+
+.ul {
+	@apply flex
+	  flex-col 
+		h-full 
+		items-center 
+		justify-end;
+}
+
 .li {
 	@apply flex 
 		h-full
+		w-full
 		items-center 
-		justify-center 
+		justify-center
+		shadow-md 
 		p-3;
 }
 
@@ -10,18 +49,22 @@
 	@apply text-primary;
 }
 
-.h3 {
-	@apply cursor-pointer;
+@screen lg {
+	.nav {
+		@apply block w-1/2 justify-self-end;
+		transform: translateY(0%);
+	}
+
+	.ul {
+		@apply flex-row pr-5;
+	}
+
+	.li {
+		@apply w-auto shadow-none;
+	}
+
+	.hamburger {
+		@apply hidden;
+	}
 }
 
-.header {
-	@apply flex h-24 bg-white fixed w-full shadow-md justify-between items-center;
-}
-
-.nav {
-	@apply w-1/3 justify-self-end;
-}
-
-.ul {
-	@apply flex h-full items-center justify-end pr-5;
-}
