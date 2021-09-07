@@ -1,5 +1,8 @@
 .h3 {
-	@apply cursor-pointer;
+	@apply cursor-pointer 
+	flex 
+	flex-col
+	w-full;
 }
 
 .header {
@@ -8,63 +11,160 @@
 		bg-white 
 		fixed 
 		w-full 
-		shadow-md 
-		justify-between 
-		items-center;
+		shadow-md
+		justify-center
+		items-center
+		z-50;
+}
+
+.title {
+	@apply gap-1 
+	flex
+	items-center 
+	cursor-pointer;
 }
 
 .div {
-	@apply cursor-pointer;
+	@apply cursor-pointer
+	pl-5;
 }
 
 .hamburger {
-	@apply p-4;
+	@apply absolute 
+	left-0 
+	p-4;
 	color: var(--color-primary);
 }
 
 .nav {
-	@apply absolute w-2/3 right-0 z-50;
-	transform: translateY(75%);
+	@apply absolute 
+		w-full 
+		right-0
+		bg-white
+		z-50;
+	transition: all 0.5s ease;
+	height: 100vh;
+	min-height: calc(100vh - 6rem);
+	transform: translate(-100%, 56%);
+}
+
+.navTranslate {
+	transform: translate(0%, 56%);
+}
+
+.ulSecondary {
+	@apply hidden 
+	w-full
+	pt-5;
 }
 
 .ul {
 	@apply flex
 	  flex-col 
 		h-full 
-		items-center 
-		justify-end;
+		items-center;
 }
 
 .li {
-	@apply flex 
-		h-full
+	@apply flex
+		relative 
 		w-full
+		shadow-md
 		items-center 
 		justify-center
-		shadow-md 
-		p-3;
+		p-3
+		py-5
+		cursor-pointer;
+
+	min-height: 5rem;
 }
 
-.li:hover .h3 {
+.li:hover .h3 .title {
+	@apply text-primary;
+}
+
+.li:hover .h3 .ulSecondary {
+	@apply flex 
+	flex-col;
+}
+
+.li:hover .h3 .title > svg {
+	transform: rotate(90deg);
+}
+
+.liSecondary {
+	@apply flex 
+	gap-3 
+	items-center 
+	p-3 
+	cursor-pointer 
+	w-full;
+}
+
+.liSecondary:hover {
 	@apply text-primary;
 }
 
 @screen lg {
+	.header {
+		@apply justify-between 
+		shadow-md 
+		border-none;
+	}
+
+	.ulSecondary {
+		@apply absolute
+			text-secondary
+			flex-col
+			px-3
+			pb-3
+			pt-0
+			w-72
+			bottom-0
+			right-0
+			rounded-b-md
+			bg-white
+			shadow-md
+			z-50;
+		transition: all 0.5s ease;
+		transform: translate(25%, 100%);
+	}
+
+	.liSecondary {
+		width: unset;
+	}
+
 	.nav {
-		@apply block w-1/2 justify-self-end;
+		@apply block
+			w-1/2
+			justify-self-end
+			h-24;
+		min-height: unset;
+		background-color: transparent;
 		transform: translateY(0%);
 	}
 
+	.h3 {
+		@apply flex-row
+		items-center;
+		width: unset;
+	}
+
 	.ul {
-		@apply flex-row pr-5;
+		@apply flex-row 
+		pr-5
+		justify-end;
 	}
 
 	.li {
-		@apply w-auto shadow-none;
+		@apply w-auto 
+		shadow-none 
+		h-full
+		py-3
+		border-none;
 	}
 
 	.hamburger {
 		@apply hidden;
 	}
 }
-

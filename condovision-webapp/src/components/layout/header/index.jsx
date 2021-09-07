@@ -1,7 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import { Fade as Hamburger } from "hamburger-react"
-
 import { StaticImage } from "gatsby-plugin-image"
+
+import { ArrowIcon } from "../../../assets/icons"
+import { SERVICES } from "../../../constants/services"
 
 import * as styles from "./styles.module.css"
 
@@ -20,14 +22,11 @@ const NavOption = ({ children, isSelected }) => {
 }
 
 const Header = () => {
-	const renderMenu = () => (
-		<ul className={styles.ul}>
-			<NavOption>Página Inicial</NavOption>
-			<NavOption>Serviços</NavOption>
-			<NavOption>Contato</NavOption>
-			<NavOption>Sobre nós</NavOption>
-		</ul>
-	)
+	const [isOpen, setIsOpen] = useState(false)
+
+	const toggleIsOpen = () => {
+		setIsOpen(isOpen => !isOpen)
+	}
 
 	return (
 		<header className={styles.header}>
@@ -41,10 +40,38 @@ const Header = () => {
 				/>
 			</div>
 
-			<div className={styles.hamburger}>
+			<div onClick={toggleIsOpen} className={styles.hamburger}>
 				<Hamburger direcrion='left' />
 			</div>
-			<nav className={styles.nav}>{renderMenu()}</nav>
+			<nav className={`${styles.nav} ${isOpen ? styles.navTranslate : ""}`}>
+				<ul className={styles.ul}>
+					<NavOption>
+						{" "}
+						<div className={styles.title}>Página Inicial</div>
+					</NavOption>
+					<NavOption>
+						<div className={styles.title}>
+							Serviços
+							<ArrowIcon size={5} />
+						</div>
+						<ul className={styles.ulSecondary}>
+							{SERVICES.map(service => (
+								<li className={styles.liSecondary}>
+									{service.icon} {service.name}
+								</li>
+							))}
+						</ul>
+					</NavOption>
+					<NavOption>
+						<div className={styles.title}>
+							Contato <ArrowIcon size={5} />
+						</div>
+					</NavOption>
+					<NavOption>
+						<div className={styles.title}>Sobre nós</div>
+					</NavOption>
+				</ul>
+			</nav>
 		</header>
 	)
 }
