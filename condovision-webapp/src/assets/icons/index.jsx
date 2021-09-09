@@ -97,10 +97,10 @@ export const VideoIcon = ({ size = 6 }) => (
 		viewBox='0 0 24 24'
 		fill='none'
 		stroke='currentColor'
-		stroke-width='2'
-		stroke-linecap='round'
-		stroke-linejoin='round'
-		class='feather feather-monitor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-monitor'
 	>
 		<rect x='2' y='3' width='20' height='14' rx='2' ry='2'></rect>
 		<line x1='8' y1='21' x2='16' y2='21'></line>
@@ -110,7 +110,7 @@ export const VideoIcon = ({ size = 6 }) => (
 
 export const EngineIcon = ({ size = 6 }) => (
 	<svg
-		enable-background='new 0 0 50 50'
+		enableBackground='new 0 0 50 50'
 		fill='currentColor'
 		height={size}
 		id='Layer_1'
@@ -123,26 +123,26 @@ export const EngineIcon = ({ size = 6 }) => (
 			fill='none'
 			points='30,14 30,10   35,10 35,6 21,6 21,10 26,10 26,14 '
 			stroke='currentColor'
-			stroke-linejoin='round'
-			stroke-miterlimit='10'
-			stroke-width='3'
+			strokeLinejoin='round'
+			strokeMiterlimit='10'
+			strokeWidth='3'
 		/>
 		<polyline
 			fill='none'
 			points='9,27 5,27 5,21   1,21 1,37 5,37 5,31 9,31 '
 			stroke='currentColor'
-			stroke-linejoin='round'
-			stroke-miterlimit='10'
-			stroke-width='3'
+			strokeLinejoin='round'
+			strokeMiterlimit='10'
+			strokeWidth='3'
 		/>
 		<path
 			d='  M45,20v5h-3v-8.157C42,15.826,41.189,15,40.191,15H19.99c-0.479,0-0.941,0.195-1.28,0.542L14,21h-3c-1,0-2,1-2,2v12  c0,1.018,1.002,2,2,2h3l4.712,5.461C19.051,42.806,19.511,43,19.99,43h12.855c0.479,0,0.939-0.194,1.278-0.539l7.346-7.482  c0.341-0.346,0.53-0.814,0.53-1.303V31h3v5h4V20H45z'
 			fill='none'
 			stroke='currentColor'
-			stroke-linecap='round'
-			stroke-linejoin='round'
-			stroke-miterlimit='10'
-			stroke-width='3'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			strokeMiterlimit='10'
+			strokeWidth='3'
 		/>
 		<polygon points='32,28 24,39 27,30 22,30 27,20 32,20 27,28 ' />
 	</svg>
@@ -239,5 +239,125 @@ export const MobileIcon = ({ size = 6 }) => (
 			strokeWidth={2}
 			d='M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z'
 		/>
+	</svg>
+)
+
+export const FacebookIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-facebook'
+	>
+		<path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'></path>
+	</svg>
+)
+
+export const MailIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-mail'
+	>
+		<path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'></path>
+		<polyline points='22,6 12,13 2,6'></polyline>
+	</svg>
+)
+
+export const Video2Icon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-video'
+	>
+		<polygon points='23 7 16 12 23 17 23 7'></polygon>
+		<rect x='1' y='5' width='15' height='14' rx='2' ry='2'></rect>
+	</svg>
+)
+
+export const MapPinIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-map-pin'
+	>
+		<path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'></path>
+		<circle cx='12' cy='10' r='3'></circle>
+	</svg>
+)
+
+export const YoutubeIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-youtube'
+	>
+		<path d='M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z'></path>
+		<polygon points='9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02'></polygon>
+	</svg>
+)
+
+export const InstagramIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='none'
+		stroke='currentColor'
+		strokeWidth='2'
+		strokeLinecap='round'
+		strokeLinejoin='round'
+		className='feather feather-instagram'
+	>
+		<rect x='2' y='2' width='20' height='20' rx='5' ry='5'></rect>
+		<path d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z'></path>
+		<line x1='17.5' y1='6.5' x2='17.51' y2='6.5'></line>
+	</svg>
+)
+
+export const WhatsAppIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		fill='currentColor'
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+	>
+		<path d='M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z' />
 	</svg>
 )
