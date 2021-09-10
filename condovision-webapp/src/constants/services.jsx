@@ -9,7 +9,7 @@ import {
 	VideoIcon,
 	IpIcon,
 	MobileIcon,
-} from "../assets/icons"
+} from "@assets/icons"
 
 export const SERVICES = [
 	{

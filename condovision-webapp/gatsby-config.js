@@ -1,8 +1,4 @@
 module.exports = {
-	siteMetadata: {
-		siteUrl: "https://www.yourdomain.tld",
-		title: "condovision-webapp",
-	},
 	plugins: [
 		"gatsby-plugin-gatsby-cloud",
 		"gatsby-plugin-image",

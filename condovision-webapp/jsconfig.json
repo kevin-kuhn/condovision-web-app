@@ -1,6 +1,10 @@
-{
-  "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src"]
-}
+// Not work with gatsby
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+// 		"paths": {
+// 			"@components": ["src/components/*"],
+// 		}
+//   },
+//   "include": ["src"]
+// }

@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import { Fade as Hamburger } from "hamburger-react"
 import { StaticImage } from "gatsby-plugin-image"
 
-import { ArrowIcon, WhatsAppIcon, MailIcon } from "../../../assets/icons"
-import { SERVICES } from "../../../constants/services"
+import { ArrowIcon, WhatsAppIcon, MailIcon } from "@assets/icons"
+import { SERVICES } from "@constants/services"
 
 import * as styles from "./styles.module.css"
 

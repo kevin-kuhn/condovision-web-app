@@ -6,7 +6,7 @@ import {
 	InstagramIcon,
 	YoutubeIcon,
 	MapPinIcon,
-} from "../../../assets/icons"
+} from "@assets/icons"
 
 import * as styles from "./styles.module.css"
 
