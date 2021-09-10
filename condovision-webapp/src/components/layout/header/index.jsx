@@ -92,7 +92,14 @@ const Header = () => {
 								</a>
 							</li>
 							<li className={styles.liSecondary}>
-								<MailIcon size={20} /> Envie um email
+								<a
+									href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
+										"Olá vim atraves do site"
+									)}`}
+									className={styles.a}
+								>
+									<MailIcon size={20} /> Envie um email
+								</a>
 							</li>
 						</ul>
 					</NavOption>
