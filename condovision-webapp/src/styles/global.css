@@ -1,6 +1,6 @@
 :root {
 	--color-primary: #4151b7;
-	--color-secondary: #727272;
+	--color-secondary: #535353;
 	--color-white: #ffff;
 }
 
@@ -13,7 +13,8 @@
 	#gatsby-focus-wrapper,
 	body,
 	html {
-		@apply h-auto min-h-screen w-screen;
+		@apply h-auto 
+		min-h-screen;
 	}
 
 	html {

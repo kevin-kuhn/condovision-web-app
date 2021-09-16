@@ -7,32 +7,25 @@ import {
 	YoutubeIcon,
 	MapPinIcon,
 } from "@assets/icons"
+import { Text } from "@components"
 
 import * as styles from "./styles.module.css"
 
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<section className={styles.socialSection}>
-				<a href='https://facebook' target='_blank' className={styles.infoData}>
-					<FacebookIcon /> <span className={styles.deskInfo}></span>
-				</a>
-				<a href='https://facebook' target='_blank' className={styles.infoData}>
-					<InstagramIcon /> <span className={styles.deskInfo}></span>
-				</a>
-				<a href='https://facebook' target='_blank' className={styles.infoData}>
-					<YoutubeIcon /> <span className={styles.deskInfo}></span>
-				</a>
-			</section>
 			<section className={styles.infoSection}>
 				<div className={styles.infoData}>
-					<MapPinIcon /> Avenida do André
+					<span className={styles.icon}>
+						<MapPinIcon size={25} />
+					</span>
+					<Text>Brasil</Text>
 				</div>
-				<a
-					href="tel:+555193300274"
-					className={styles.infoData}
-				>
-					<PhoneIcon /> +55 51 9330-0274
+				<a href='tel:+555193300274' className={styles.infoData}>
+					<span className={styles.icon}>
+						<PhoneIcon />
+					</span>
+					<Text>+55 51 99330-0274</Text>
 				</a>
 				<a
 					href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
@@ -40,7 +33,45 @@ const Footer = () => {
 					)}`}
 					className={styles.infoData}
 				>
-					<MailIcon /> parizotto1987@outlook.com
+					<span className={styles.icon}>
+						<MailIcon size={25} />
+					</span>
+					<Text>parizotto1987@outlook.com</Text>
+				</a>
+			</section>
+			<section className={styles.socialSection}>
+				<a
+					href='https://www.facebook.com/'
+					target='_blank'
+					rel='noreferrer'
+					className={styles.infoData}
+				>
+					<span className={styles.icon}>
+						<FacebookIcon size={25} />{" "}
+					</span>
+					<span className={styles.deskInfo}>Condovision SS</span>
+				</a>
+				<a
+					href='https://www.instagram.com/'
+					target='_blank'
+					rel='noreferrer'
+					className={styles.infoData}
+				>
+					<span className={styles.icon}>
+						<InstagramIcon size={25} />
+					</span>{" "}
+					<span className={styles.deskInfo}>Condovision SS</span>
+				</a>
+				<a
+					href='https://www.youtube.com/'
+					target='_blank'
+					rel='noreferrer'
+					className={styles.infoData}
+				>
+					<span className={styles.icon}>
+						<YoutubeIcon size={25} />
+					</span>
+					<span className={styles.deskInfo}>Condovision SS</span>
 				</a>
 			</section>
 		</footer>

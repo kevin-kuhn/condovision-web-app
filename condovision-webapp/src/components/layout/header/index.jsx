@@ -37,7 +37,13 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<Link to='/'>
-				<div className={styles.div} onClick={closeHeader}>
+				<div
+					className={styles.div}
+					onClick={closeHeader}
+					onKeyDown={closeHeader}
+					role="button"
+					tabIndex={0}
+				>
 					<StaticImage
 						placeholder='blurred'
 						src='../../../assets/images/logo.png'
@@ -48,14 +54,26 @@ const Header = () => {
 				</div>
 			</Link>
 
-			<div onClick={toggleIsOpen} className={styles.hamburger}>
+			<div
+				onClick={toggleIsOpen}
+				className={styles.hamburger}
+				onKeyDown={toggleIsOpen}
+				role="button"
+				tabIndex={0}
+			>
 				<Hamburger direction='right' />
 			</div>
 			<nav className={`${styles.nav} ${isOpen ? styles.navTranslate : ""}`}>
 				<ul className={styles.ul}>
 					<NavOption>
 						<Link to='/'>
-							<div onClick={closeHeader} className={styles.title}>
+							<div
+								onClick={closeHeader}
+								onKeyDown={toggleIsOpen}
+								className={styles.title}
+								role="button"
+								tabIndex={0}
+							>
 								Página Inicial
 							</div>
 						</Link>
@@ -87,6 +105,7 @@ const Header = () => {
 										"Olá vim atraves do site"
 									)}&phone=555193300274`}
 									target='_blank'
+									rel='noreferrer'
 								>
 									<WhatsAppIcon size={20} /> Envie uma mensagem
 								</a>

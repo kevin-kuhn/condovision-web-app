@@ -1,0 +1,76 @@
+.footer {
+	@apply flex 
+		w-full
+		p-3
+		shadow-inner
+		flex-col;
+	max-width: 100%;
+}
+
+.socialSection {
+	@apply flex
+		gap-3
+		p-3
+		justify-center
+		items-center;
+}
+
+.socialSection .infoData .icon {
+	@apply flex
+		p-2
+	text-white
+		rounded-full
+		bg-primary;
+}
+
+.socialSection .infoData:nth-child(1) .icon {
+	background-color: #1871E7;
+}
+
+.socialSection .infoData:nth-child(2) .icon {
+	background-color: #aa1647;
+}
+
+.socialSection .infoData:nth-child(3) .icon {
+	background-color: #F20000;
+}
+
+.socialSection .infoData {
+	@apply flex
+		items-center
+		justify-center;
+}
+
+.infoSection .infoData {
+	@apply flex
+		items-center
+		p-3
+		gap-3;
+}
+
+.infoSection .infoData .icon {
+	@apply text-primary;
+}
+
+.deskInfo {
+	@apply hidden;
+}
+
+@screen md {
+	.footer {
+		@apply flex-row
+			justify-between;
+	}
+}
+
+@screen lg {
+	.footer {
+		@apply px-32;
+	}
+}
+
+@screen xl {
+	.footer {
+		@apply px-48;
+	}
+}
