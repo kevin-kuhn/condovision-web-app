@@ -1,0 +1,55 @@
+.container {
+	@apply flex 
+		flex-col 
+		max-w-md;
+}
+
+.icon {
+	@apply text-primary
+		px-3;
+}
+
+.infos {
+	@apply flex 
+		flex-col 
+		px-1;
+}
+
+.title {
+	@apply flex 
+		text-primary 
+		items-center 
+		font-medium 
+		text-lg;
+}
+
+.text {
+	@apply pl-11 pt-1;
+}
+
+.moreActions {
+	@apply pl-11 pt-1 flex justify-end items-center;
+}
+
+.link {
+	@apply text-secondary text-sm mr-3;
+}
+
+.link:hover {
+	@apply underline;
+}
+
+.button {
+	@apply bg-primary 
+		px-3 
+		py-1 
+		rounded-tl-md 
+		rounded-b-md 
+		text-white;
+
+	transition: filter 0.2s;
+}
+
+.button:hover {
+	filter: opacity(0.8);
+}

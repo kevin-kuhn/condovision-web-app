@@ -7,18 +7,18 @@ import Footer from "./footer"
 import * as styles from "./styles.module.css"
 
 //TODO: AJUSTAR META TAGS
-const Layout = ({ title = "Condovision - Sistemas Eletrônicos", children }) => {
+const Layout = ({ title, description, children }) => {
 	return (
 		<>
 			<Helmet>
 				<meta charSet='utf-8' />
-				<meta
-					name='description'
-					content='Um Processo Simples, mas Eficaz: Como Transformar Leads Frios em Clientes Reais e Satisfeitos (Com Sequência de Emails e Funil Automatizado).'
-				/>
+				<meta name='description' content={description} />
 				<meta http-equiv='content-language' content='pt-br' />
 				<meta name='author' content='Kevin Kuhn' />
-				<meta name='keywords' content='sdfsd dfgdf dfgdf dfgfd' />
+				<meta
+					name='keywords'
+					content='segurança eletrônica alarmes câmeras instalação automação motores elétricos'
+				/>
 				<title>{title}</title>
 			</Helmet>
 

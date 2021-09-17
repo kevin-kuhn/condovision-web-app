@@ -20,7 +20,7 @@
 .title {
 	@apply gap-1 
 	flex
-	items-center 
+	items-center
 	cursor-pointer;
 }
 
@@ -45,11 +45,11 @@
 	transition: all 0.5s ease;
 	height: 100vh;
 	min-height: calc(100vh - 6rem);
-	transform: translate(-100%, 56%);
+	transform: translate(-100%, 55.5%);
 }
 
 .navTranslate {
-	transform: translate(0%, 56%);
+	transform: translate(0%, 55.5%);
 }
 
 .ulSecondary {
