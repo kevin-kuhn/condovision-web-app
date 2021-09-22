@@ -149,6 +149,11 @@ exports.createPages = ({ actions }) => {
 			Podemos integrar câmeras de alta tecnologia e controles de acesso como os de reconhecimento facial, biometria, QR Code, etc...
 			Soluções inovadoras e tecnológicas você encontra nos projetos IP.`,
 		},
+		{
+			name: "Contrato de Manutenção",
+			path: 'contrato-manuntencao',
+			text: ``,
+		},
 	]
 	
 	serviceData.forEach(service => {

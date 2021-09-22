@@ -57,4 +57,9 @@ export const SERVICES = [
 		path: '/projetos-ip',
 		icon: <IpIcon size={20} />,
 	},
+	{
+		name: "Contrato de Manutenção",
+		path: '/contrato-manuntencao',
+		icon: <IpIcon size={20} />,
+	},
 ]
