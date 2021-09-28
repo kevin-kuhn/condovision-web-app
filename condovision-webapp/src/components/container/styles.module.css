@@ -1,0 +1,19 @@
+.container {
+	@apply px-5;
+}
+
+@screen sm {
+	.container {
+		@apply text-7xl;
+	}
+
+	.subtitle {
+		@apply text-3xl;
+	}	
+}
+
+@screen lg {
+	.container {
+		@apply px-32;
+	}
+}

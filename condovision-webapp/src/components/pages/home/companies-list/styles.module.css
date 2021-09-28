@@ -1,0 +1,36 @@
+.companyImage {
+	@apply mr-2
+		mb-2
+		cursor-pointer
+		flex
+		items-center
+		justify-center;
+	
+
+}
+
+.companyList {
+	@apply flex
+		justify-between
+		flex-wrap
+		mb-12;
+}
+
+@screen sm {
+	.companyImage {
+		@apply mr-10 mb-10;
+	}
+}
+
+@screen md {
+	.companyList {
+		@apply justify-start;
+	}
+}
+
+
+@screen lg {
+	.companyImage {
+		@apply mr-10 mb-10;
+	}
+}

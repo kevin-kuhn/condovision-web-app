@@ -1,7 +1,5 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
-import { Text } from "@components"
 
 import * as styles from "./styles.module.css"
 
@@ -24,11 +22,4 @@ const HomeHeader = () => {
 	)
 }
 
-// <StaticImage
-// placeholder='blurred'
-// src='../../../assets/images/logo.png'
-// alt='logo'
-// layout='fixed'
-// width={200}
-// />
 export default HomeHeader

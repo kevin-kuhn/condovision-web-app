@@ -1,0 +1,45 @@
+.section {
+	@apply flex 
+		justify-between
+		items-center
+		py-16;
+}
+
+.infoContainer {
+	@apply flex 
+		flex-col;
+}
+
+.title {
+	@apply font-semibold
+		text-primary
+		mt-2
+		mb-3
+		text-xl;
+}
+
+.subtitle {
+	@apply text-primary
+	 text-sm;
+}
+
+.linkDescription {
+	@apply text-primary 
+		hidden
+		text-sm;;
+}
+
+.linkDescription:hover {
+	@apply underline;
+}
+
+.hr {
+	@apply text-primary
+		w-5/6;
+}
+
+@screen sm {
+	.linkDescription {
+		@apply block;
+	}
+}

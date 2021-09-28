@@ -4,7 +4,7 @@
 
 .header::before {
 	content: "";
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(65, 81, 183, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;

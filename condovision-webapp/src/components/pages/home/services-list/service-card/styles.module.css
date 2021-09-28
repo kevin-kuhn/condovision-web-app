@@ -1,18 +1,21 @@
 .container {
 	@apply flex 
-		flex-col 
+		flex-col
+		h-full
 		max-w-md;
+
+	min-height: 20rem;
 }
 
 .icon {
 	@apply text-primary
-		px-3;
+		pr-3;
 }
 
 .infos {
-	@apply flex 
-		flex-col 
-		px-1;
+	@apply flex
+		justify-between
+		flex-col;
 }
 
 .title {
@@ -24,15 +27,22 @@
 }
 
 .text {
-	@apply pl-11 pt-1;
+	@apply pl-9 pt-1;
 }
 
 .moreActions {
-	@apply pl-11 pt-1 flex justify-end items-center;
+	@apply pl-9 
+		pt-3 
+		flex 
+		justify-end 
+		items-center;
 }
 
 .link {
-	@apply text-secondary text-sm mr-3;
+	@apply hidden 
+		text-secondary 
+		text-sm
+		mr-3;
 }
 
 .link:hover {
@@ -42,14 +52,26 @@
 .button {
 	@apply bg-primary 
 		px-3 
-		py-1 
-		rounded-tl-md 
+		py-1
+		rounded-tl-md
 		rounded-b-md 
+		mb-4
 		text-white;
 
+	font-size: 1.15rem;
 	transition: filter 0.2s;
 }
 
 .button:hover {
 	filter: opacity(0.8);
+}
+
+@media (min-width: 375px) {
+	.link {
+		@apply block;
+	}
+
+	.button {
+		@apply mb-0;
+	}
 }

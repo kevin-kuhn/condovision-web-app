@@ -1,0 +1,15 @@
+.card {
+
+}
+
+.cardContainer {
+	@apply flex 
+		flex-wrap
+		justify-center;
+}
+
+@screen lg {
+	.cardContainer {
+		@apply justify-between;
+	}
+}
