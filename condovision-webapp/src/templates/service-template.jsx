@@ -1,12 +1,14 @@
 import * as React from "react"
 import Layout from "@components/layout"
+import { Services } from "@components/pages"
 
 const ServicesPage = ({ pageContext: { service } }) => {
-	console.log(service)
-
 	return (
-		<Layout>
-			<div dangerouslySetInnerHTML={{ __html: service.text }} />
+		<Layout
+			title={`${service.name} | Condovision - Sistemas Eletrônicos`}
+			description={service.shortDescription}
+		>
+			<Services service={service} />
 		</Layout>
 	)
 }

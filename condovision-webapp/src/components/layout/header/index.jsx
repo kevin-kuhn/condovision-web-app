@@ -61,7 +61,7 @@ const Header = () => {
 				role="button"
 				tabIndex={0}
 			>
-				<Hamburger direction='right' />
+				<Hamburger direction='right' toggled={isOpen} />
 			</div>
 			<nav className={`${styles.nav} ${isOpen ? styles.navTranslate : ""}`}>
 				<ul className={styles.ul}>

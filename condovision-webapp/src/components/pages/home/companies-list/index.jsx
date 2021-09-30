@@ -136,7 +136,7 @@ const CompaniesList = () => {
 					<Link to=''>
 						<StaticImage
 							placeholder='blurred'
-							src='../../../../assets/images/companies/jfl.png'
+							src='../../../../assets/images/companies/jfl.jpg'
 							alt='JFL'
 							layout='fixed'
 							height={50}

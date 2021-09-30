@@ -4,6 +4,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Câmeras",
 			path: "cameras",
+			shortDescription: `As câmeras de monitoramento oferecem um sistema de gravação de imagens onde tudo oque acontece em um determinado local 
+			fica registrado em um gravador de vídeo digital (DVR) podendo ser acessado a qualquer momento através de um celular ou 
+			monitor de vìdeo e recuperar imagens de algum fato ocorrido naquele local.`,
 			text: `As câmeras de monitoramento oferecem um sistema de gravação de imagens onde tudo oque acontece em um determinado local 
 			fica registrado em um gravador de vídeo digital (DVR) podendo ser acessado a qualquer momento através de um celular ou 
 			monitor de vìdeo e recuperar imagens de algum fato ocorrido naquele local.<br /><br />
@@ -24,6 +27,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Cerca elétrica",
 			path: "cerca-eletrica",
+			shortDescription: `O sistema de cerca elétrica é muito importante para proteger você, sua família e seu patrimônio.
+			Esse sistema tem como finalidade prevenir a intrusão por cima de muros, grades ou telhados através de fios de inox fixados
+			nas hastes formando uma cerca e que são ligados a uma central de choque pulsativa.`,
 			text: `O sistema de cerca elétrica é muito importante para proteger você, sua família e seu patrimônio.
 			Esse sistema tem como finalidade prevenir a intrusão por cima de muros, grades ou telhados através de fios de inox fixados
 			nas hastes formando uma cerca e que são ligados a uma central de choque pulsativa que libera pulsos de energia elétrica semelhantes a um TASER.
@@ -38,6 +44,8 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Detecção de incêndio",
 			path: "incendio",
+			shortDescription: `	Quando um incêndio é detectado é possível acionar esse sistema de alarme para avisar a todos que evacuem o local imediatamente.
+			O acionamento do sistema pode ser feito manualmente através dos acionadores eletrônicos manuais que possuem um botão de acionamento.`,
 			text: `O sistema eletrônico de alarme de detecção de incêndio é fundamental para prevenir danos materiais e principalmente para
 			proteger vidas!<br /><br />
 			Quando um incêndio é detectado é possível acionar esse sistema de alarme para avisar a todos que evacuem o local imediatamente.
@@ -54,6 +62,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Alarmes",
 			path: "alarmes",
+			shortDescription: `O sistema de alarme funciona para alertar sobre uma intrusão ou para inibir uma. 
+			Através de sensores de porta e janelas, sensores de presença e vários outros tipos de sensores
+			o alarme protege sua casa, sua empresa ou até mesmo um terreno aberto com sensores modernos tipo barreiras.`,
 			text: `O sistema de alarme funciona para alertar sobre uma intrusão ou para inibir uma. 
 			Através de sensores de porta e janelas, sensores de presença e vários outros tipos de sensores
 			o alarme protege sua casa, sua empresa ou até mesmo um terreno aberto com sensores modernos tipo barreiras.
@@ -66,6 +77,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Motores de portão",
 			path: "motores",
+			shortDescription: `Hoje em dia descer do carro para abrir o portão não é uma boa opção. Principalmente a noite.
+			Por isso existem os motores de portão, para ajudar você e sua família nesse momento. 
+			Os motores podem ser instalados em portões residenciais, comerciais, em condomínios ou em qualquer lugar.`,
 			text: `Hoje em dia descer do carro para abrir o portão não é uma boa opção. Principalmente a noite.
 			Por isso existem os motores de portão, para ajudar você e sua família nesse momento. 
 			Os motores podem ser instalados em portões residenciais, comerciais, em condomínios ou em qualquer lugar. 
@@ -81,6 +95,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Controle de acesso",
 			path: "controle-acesso",
+			shortDescription: `Normalmente usado em condomínios e empresas, o controle de acesso serve exatamente para manter o controle de quem entra e sai
+			do local. Esse controle de circulação de pessoas pode ser feito através de sistemas eletrônicos normalmente com fechaduras 
+			em portas de passagem.`,
 			text: `Normalmente usado em condomínios e empresas, o controle de acesso serve exatamente para manter o controle de quem entra e sai
 			do local. Esse controle de circulação de pessoas pode ser feito através de sistemas eletrônicos normalmente com fechaduras 
 			nas portas de passagem que são liberadas através de um cartão, tag, senha, controle remoto, biometria ou até mesmo pelo interfone. 
@@ -96,6 +113,8 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Interfonia",
 			path: "interfonia",
+			shortDescription: `Com a vida moderna também veio a necessidade de comunicação. Nada melhor que o sistema de interfonia para resolver esse problema.
+			Existem alguns tipos de sistemas de interfones e agora você pode entender qual sistema irá lhe atender melhor.`,
 			text: `Com a vida moderna também veio a necessidade de comunicação. Nada melhor que o sistema de interfonia para resolver esse problema.
 			Existem alguns tipos de sistemas de interfones e agora você pode entender qual sistema irá lhe atender melhor.<br /><br />
 			
@@ -114,6 +133,9 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Interfonia por vídeo",
 			path: "interfonia-video",
+			shortDescription: `Mais conhecido como vídeo porteiro, a interfonia por vídeo é semelhante a interfonia comum, porém com a diferença 
+			que além de conversar com a pessoa pelo interfone é também possível ver a pessoa. Isso traz mais segurança na hora 
+			de atender o interfone.`,
 			text: `Mais conhecido como vídeo porteiro, a interfonia por vídeo é semelhante a interfonia comum, porém com a diferença 
 			que além de conversar com a pessoa pelo interfone é também possível ver a pessoa. Isso traz mais segurança na hora 
 			de atender o interfone.
@@ -142,6 +164,8 @@ exports.createPages = ({ actions }) => {
 		{
 			name: "Projetos IP",
 			path: "projetos-ip",
+			shortDescription: `Os projetos IP são importantes onde é necessário um número muito grande de câmeras como grandes condomínios,
+			empresas, estádios e até mesmo cidades. Desenvolvemos e executamos os projetos IP podendo ser de câmeras ou de controles de acesso.`,
 			text: `Os projetos IP são importantes onde é necessário um número muito grande de câmeras como grandes condomínios,
 			empresas, estádios e até mesmo cidades.
 			Desenvolvemos e executamos os projetos IP podendo ser de câmeras ou de controles de acesso.<br />
@@ -151,11 +175,12 @@ exports.createPages = ({ actions }) => {
 		},
 		{
 			name: "Contrato de Manutenção",
-			path: 'contrato-manuntencao',
+			path: "contrato-manuntencao",
+			shortDescription: ``,
 			text: ``,
 		},
 	]
-	
+
 	serviceData.forEach(service => {
 		createPage({
 			path: `/${service.path}`,
@@ -165,17 +190,17 @@ exports.createPages = ({ actions }) => {
 	})
 }
 
-const path = require('path')
+const path = require("path")
 
 exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      alias: {
-        "@components": path.resolve(__dirname, 'src/components'),
-        "@assets": path.resolve(__dirname, 'src/assets'),
-        "@constants": path.resolve(__dirname, 'src/constants'),
-				"@hooks": path.resolve(__dirname, 'src/hooks'),
-      },
-    },
-  })
+	actions.setWebpackConfig({
+		resolve: {
+			alias: {
+				"@components": path.resolve(__dirname, "src/components"),
+				"@assets": path.resolve(__dirname, "src/assets"),
+				"@constants": path.resolve(__dirname, "src/constants"),
+				"@hooks": path.resolve(__dirname, "src/hooks"),
+			},
+		},
+	})
 }
