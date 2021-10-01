@@ -1,24 +1,18 @@
-import React from "react"
+import React  from "react"
 
 import * as styles from "./styles.module.css"
 
-const ServicesHeader = ({ title, imagePath, data }) => {
-
+const ServicesHeader = ({ title, imagePath, imageHeaderPath }) => {
 	return (
 		<section className={styles.header}>
 			<div className={styles.titleContainer}>
-				<h1 className={styles.title}>CONDOVISION</h1>
-				<h2 className={styles.subtitle}>SISTEMAS ELETRÔNICOS</h2>
+				<h1 className={styles.title}>{title}</h1>
 			</div>
-			<img src={`../../../../assets/images/services/header/${imagePath}`} alt={`Capa do serviço ${title}`} />
-			{/* <StaticImage
-				placeholder='blurred'
-				src='../../../../assets/images/cameras1.jpg'
-				alt='painel'
-				style={{ maxHeight: "500px", zIndex: -2 }}
-				layout='fullWidth'
-				height={500}
-			/> */}
+				<img
+					className={styles.image}
+					src={`../../../../../images/header/${imageHeaderPath}`}
+					alt={`Capa do serviço ${title}`}
+				/>
 		</section>
 	)
 }

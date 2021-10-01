@@ -3,11 +3,16 @@ import React from "react"
 import ServicesHeader from "./services-header"
 
 const Services = ({ service }) => {
-	const { name } = service
-	
+	const { name, imageHeaderPath, imagePath, text } = service
+
 	return (
 		<>
-			<ServicesHeader title={name} />
+			<ServicesHeader
+				title={name}
+				text={text}
+				imageHeaderPath={imageHeaderPath}
+				imagePath={imagePath}
+			/>
 			<div dangerouslySetInnerHTML={{ __html: service.text }} />
 		</>
 	)

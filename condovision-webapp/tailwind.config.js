@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
+  purge: {
+		content: ['./src/**/*.{js,jsx,ts,tsx}'],
+		safeList: ['h-6', 'w-6'],
+	},
   darkMode: false, // or 'media' or 'class'
 	experimental: {
     applyComplexClasses: true,

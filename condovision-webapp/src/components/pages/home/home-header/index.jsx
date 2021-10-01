@@ -16,7 +16,6 @@ const HomeHeader = () => {
 				alt='painel'
 				style={{ maxHeight: "500px", zIndex: -2 }}
 				layout='fullWidth'
-				height={500}
 			/>
 		</section>
 	)

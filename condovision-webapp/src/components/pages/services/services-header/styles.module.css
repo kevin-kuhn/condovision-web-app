@@ -1,0 +1,52 @@
+.header {
+	@apply relative;
+}
+
+.header::before {
+	content: "";
+	background: rgba(65, 81, 183, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.image {
+	@apply w-full
+		object-cover;
+	max-height: 500px;
+	z-index: -1;
+}
+
+.titleContainer {
+	@apply absolute 
+		top-1/2 
+		left-1/2 
+		text-4xl 
+		text-white;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	/* animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both; */
+}
+
+.title {
+	@apply font-semibold;
+}
+
+@screen sm {
+	.titleContainer {
+		@apply text-6xl;
+	}
+}
+
+@keyframes fade-in-left {
+	0% {
+		transform: translateX(-50px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
