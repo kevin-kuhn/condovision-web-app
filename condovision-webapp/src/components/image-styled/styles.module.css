@@ -1,0 +1,10 @@
+.background {
+	@apply rounded-md 
+		bg-primary 
+		z-0
+		h-full
+		top-0
+		absolute;
+
+		transform: translate(10px, 10px);
+}

@@ -1,0 +1,56 @@
+.content {
+	@apply flex
+		flex-col
+		py-10;
+}
+
+.imageBox {
+	@apply w-full 
+		flex
+		order-2
+		mr-7
+		justify-center
+		items-start;
+}
+
+.icon {
+	@apply hidden;
+}
+
+.a {
+	@apply flex gap-3 items-center;
+}
+
+.buttonBox {
+	@apply flex mt-10 justify-center;
+}
+
+.textBox {
+	@apply flex flex-col w-full order-1 mb-5;
+}
+
+.button {
+	@apply text-base 
+		text-white 
+		bg-primary
+		p-2 
+		rounded-md;
+}
+
+@screen lg {
+	.icon {
+		@apply block;
+	}
+
+	.content {
+		@apply flex-row;
+	}
+
+	.imageBox {
+		@apply w-1/3 order-1;
+	}
+
+	.textBox {
+		@apply w-2/3 order-2;
+	}
+}

@@ -2,7 +2,7 @@ import React  from "react"
 
 import * as styles from "./styles.module.css"
 
-const ServicesHeader = ({ title, imagePath, imageHeaderPath }) => {
+const ServicesHeader = ({ title, imageHeaderPath }) => {
 	return (
 		<section className={styles.header}>
 			<div className={styles.titleContainer}>

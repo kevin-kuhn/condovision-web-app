@@ -1,6 +1,7 @@
 import React from "react"
 
 import ServicesHeader from "./services-header"
+import ServicesContent from "./services-content"
 
 const Services = ({ service }) => {
 	const { name, imageHeaderPath, imagePath, text } = service
@@ -13,7 +14,7 @@ const Services = ({ service }) => {
 				imageHeaderPath={imageHeaderPath}
 				imagePath={imagePath}
 			/>
-			<div dangerouslySetInnerHTML={{ __html: service.text }} />
+			<ServicesContent title={name} text={text} imagePath={imagePath} />
 		</>
 	)
 }
