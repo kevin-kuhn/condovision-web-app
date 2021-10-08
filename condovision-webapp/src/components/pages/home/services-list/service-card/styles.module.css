@@ -7,6 +7,10 @@
 	min-height: 20rem;
 }
 
+.a {
+	@apply h-full;
+}
+
 .icon {
 	@apply text-primary
 		pr-3;

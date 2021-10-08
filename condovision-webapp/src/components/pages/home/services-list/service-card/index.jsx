@@ -21,7 +21,19 @@ const ServiceCard = props => {
 					<span className={styles.link}>
 						<Link to={path}>Saiba mais</Link>
 					</span>
-					<button className={styles.button}>Faça um orçamento!</button>
+					<button className={styles.button}>
+						<a
+							className={styles.a}
+							aria-label='Contato por whatsapp'
+							href={`https://api.whatsapp.com/send?text=${encodeURI(
+								`Olá, gostaria de um orçamento para: ${name}.`
+							)}&phone=555193300274`}
+							target='_blank'
+							rel='noreferrer'
+						>
+							Faça um orçamento!
+						</a>
+					</button>
 				</div>
 			</div>
 		</article>
