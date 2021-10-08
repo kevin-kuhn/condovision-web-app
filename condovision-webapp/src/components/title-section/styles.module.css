@@ -2,7 +2,7 @@
 	@apply flex 
 		justify-between
 		items-center
-		py-16;
+		py-11;
 }
 
 .infoContainer {
@@ -41,5 +41,11 @@
 @screen sm {
 	.linkDescription {
 		@apply block;
+	}
+}
+
+@screen lg {
+	.section {
+		@apply py-16;
 	}
 }

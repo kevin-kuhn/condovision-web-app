@@ -21,13 +21,18 @@ const Footer = () => {
 					</span>
 					<Text>Brasil</Text>
 				</div>
-				<a href='tel:+555193300274' className={styles.infoData}>
+				<a
+					href='tel:+555193300274'
+					aria-label='Contato por telefone'
+					className={styles.infoData}
+				>
 					<span className={styles.icon}>
 						<PhoneIcon />
 					</span>
 					<Text>+55 51 99330-0274</Text>
 				</a>
 				<a
+					aria-label='Contato por email'
 					href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
 						"Gostaria de um orçamento!"
 					)}`}
@@ -43,6 +48,7 @@ const Footer = () => {
 				<a
 					href='https://www.facebook.com/'
 					target='_blank'
+					aria-label='Facebook'
 					rel='noreferrer'
 					className={styles.infoData}
 				>
@@ -54,6 +60,7 @@ const Footer = () => {
 				<a
 					href='https://www.instagram.com/'
 					target='_blank'
+					aria-label='Instagram'
 					rel='noreferrer'
 					className={styles.infoData}
 				>
@@ -66,6 +73,7 @@ const Footer = () => {
 					href='https://www.youtube.com/'
 					target='_blank'
 					rel='noreferrer'
+					aria-label='Youtube'
 					className={styles.infoData}
 				>
 					<span className={styles.icon}>

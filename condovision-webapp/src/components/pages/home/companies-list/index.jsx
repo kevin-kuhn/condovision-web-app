@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import { StaticImage } from "gatsby-plugin-image"
 
 import * as styles from "./styles.module.css"
@@ -12,7 +12,12 @@ const CompaniesList = () => {
 			<TitleSection title='Somos especialistas quando o assunto é segurança eletrônica' />
 			<div className={styles.companyList}>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='AGL'
+						href='https://www.aglfechaduras.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/agl.jpg'
@@ -20,10 +25,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={40}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Automatiza'
+						href='http://www.automatiza.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/automatiza.png'
@@ -31,10 +41,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={40}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Bravas'
+						href='http://bravas.ind.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/bravas.png'
@@ -42,10 +57,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={30}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Compatec'
+						href='https://compatec.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/compatec.jpg'
@@ -53,10 +73,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Condutti'
+						href='https://condutti.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/condutti.jpg'
@@ -64,10 +89,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Control ID'
+						href='https://www.controlid.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/controlid.jpg'
@@ -75,10 +105,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='DNI'
+						href='https://www.dni.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/dni.jpg'
@@ -86,10 +121,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='HDL'
+						href='https://www.hdl.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/hdl.png'
@@ -97,10 +137,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Hikvision'
+						href='https://www.hikvision.com/pt-br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/hikvision.jpg'
@@ -108,10 +153,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Hilook'
+						href='https://www.hikvision.com/pt-br/products/HiLook/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/hilook.jpg'
@@ -119,21 +169,31 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Intelbrás'
+						href='https://intelbras.com/pt-br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/intelbras.png'
-							alt='Intelbras'
+							alt='Intelbrás'
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='JFL'
+						href='https://jflalarmes.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/jfl.jpg'
@@ -141,10 +201,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Macrocabos'
+						href='https://www.macrocabos.com.br/produtos.html'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/macrocabos.jpg'
@@ -152,10 +217,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='MCM'
+						href='https://www.mcmfontesenobreaks.ind.br/pt-br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/mcm.jpg'
@@ -163,10 +233,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Megatron'
+						href='https://megatron.com.br/home'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/megatron.jpg'
@@ -174,10 +249,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Moura'
+						href='https://www.mourafacil.com/home'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/moura.jpg'
@@ -185,10 +265,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Nice'
+						href='https://nice.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/nice.jpg'
@@ -196,10 +281,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='PPA'
+						href='https://www.ppa.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/ppa.png'
@@ -207,10 +297,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Rossi'
+						href='https://www.rossiportoes.com.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/rossi.jpg'
@@ -218,10 +313,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Seagate'
+						href='https://www.seagate.com/br/pt/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/seagate.jpg'
@@ -229,10 +329,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='SPA'
+						href='http://spa.ind.br/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/spa.png'
@@ -240,10 +345,15 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 				<div className={styles.companyImage}>
-					<Link to=''>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						aria-label='Western Digital'
+						href='https://www.westerndigital.com/'
+					>
 						<StaticImage
 							placeholder='blurred'
 							src='../../../../assets/images/companies/wd.jpg'
@@ -251,7 +361,7 @@ const CompaniesList = () => {
 							layout='fixed'
 							height={50}
 						/>
-					</Link>
+					</a>
 				</div>
 			</div>
 		</Container>

@@ -24,6 +24,7 @@ const ServicesContent = ({ text, title, imagePath }) => {
 						<Button>
 							<a
 								className={styles.a}
+								aria-label="Contato por whatsapp"
 								href={`https://api.whatsapp.com/send?text=${encodeURI(
 									`Olá, gostaria de um orçamento para: ${title}.`
 								)}&phone=555193300274`}

@@ -1,0 +1,34 @@
+.ul {
+	@apply flex
+		flex-wrap
+		pb-11
+		justify-between;
+}
+
+.li {
+	@apply w-52
+		py-1
+		text-secondary
+		font-normal
+		cursor-pointer
+		text-base;
+
+	list-style: inside;
+}
+
+.li:hover {
+	@apply underline;
+}
+
+@screen md {
+	.ul {
+		@apply w-full;
+	}
+}
+
+@screen lg {
+	.ul {
+		@apply pb-16
+			w-1/2;
+	}
+}

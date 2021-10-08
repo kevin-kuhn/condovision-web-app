@@ -10,7 +10,11 @@ import * as styles from "./styles.module.css"
 const Layout = ({ title, description, children }) => {
 	return (
 		<>
-			<Helmet>
+			<Helmet
+				htmlAttributes={{
+					lang: "pt-BR",
+				}}
+			>
 				<meta charSet='utf-8' />
 				<meta name='description' content={description} />
 				<meta http-equiv='content-language' content='pt-br' />

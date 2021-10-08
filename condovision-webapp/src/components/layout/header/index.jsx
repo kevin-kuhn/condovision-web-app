@@ -41,7 +41,7 @@ const Header = () => {
 					className={styles.div}
 					onClick={closeHeader}
 					onKeyDown={closeHeader}
-					role="button"
+					role='button'
 					tabIndex={0}
 				>
 					<StaticImage
@@ -58,7 +58,7 @@ const Header = () => {
 				onClick={toggleIsOpen}
 				className={styles.hamburger}
 				onKeyDown={toggleIsOpen}
-				role="button"
+				role='button'
 				tabIndex={0}
 			>
 				<Hamburger direction='right' toggled={isOpen} />
@@ -71,7 +71,7 @@ const Header = () => {
 								onClick={closeHeader}
 								onKeyDown={toggleIsOpen}
 								className={styles.title}
-								role="button"
+								role='button'
 								tabIndex={0}
 							>
 								Página Inicial
@@ -101,6 +101,7 @@ const Header = () => {
 							<li className={styles.liSecondary}>
 								<a
 									className={styles.a}
+									aria-label='Contato whatsapp'
 									href={`https://api.whatsapp.com/send?text=${encodeURI(
 										"Olá vim atraves do site"
 									)}&phone=555193300274`}
@@ -112,6 +113,7 @@ const Header = () => {
 							</li>
 							<li className={styles.liSecondary}>
 								<a
+									aria-label='Contato email'
 									href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
 										"Olá vim atraves do site"
 									)}`}

@@ -17,7 +17,7 @@ const ServicesList = () => {
 			/>
 			<div className={styles.cardContainer}>
 				{SERVICES.map(service => (
-					<div key={service.name} className={styles.card}>
+					<div key={service.name}>
 						<ServiceCard service={service} />
 					</div>
 				))}
