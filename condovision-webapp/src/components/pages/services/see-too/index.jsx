@@ -13,7 +13,7 @@ const SeeToo = ({ serviceName }) => {
 			<ul className={styles.ul}>
 				{SERVICES.filter(service => service.name !== serviceName).map(
 					service => (
-						<Link to={service.path}>
+						<Link key={service.name} to={service.path}>
 							<li className={styles.li}>{service.name}</li>
 						</Link>
 					)

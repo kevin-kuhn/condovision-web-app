@@ -1,17 +1,18 @@
 import React from "react"
 
+import Img from "gatsby-image"
+
 import * as styles from "./styles.module.css"
 
-const ServicesHeader = ({ title, imageHeaderPath = ''}) => {
-
+const ServicesHeader = ({ title, fluid = "" }) => {
 	return (
 		<section className={styles.header}>
 			<div className={styles.titleContainer}>
 				<h1 className={styles.title}>{title}</h1>
 			</div>
-			<img
+			<Img
+				fluid={fluid}
 				className={styles.image}
-				src={`../../../../../images/header/${imageHeaderPath}`}
 				alt={`Capa do serviço ${title}`}
 			/>
 		</section>

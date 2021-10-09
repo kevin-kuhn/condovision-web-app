@@ -2,12 +2,16 @@ import React from "react"
 
 import * as styles from "./styles.module.css"
 
-const ImageStyled = ({ src, alt, width = 60, height = 80, className }) => {
+import Img from "gatsby-image"
+
+const ImageStyled = ({ fluid, alt, width = 60, height = 80, className }) => {
 	return (
 		<div className='relative'>
-			<img
-				className={`w-${width} h-${height} z-10 object-cover rounded-md ${className ?? ""}`}
-				src={src}
+			<Img
+				fluid={fluid}
+				className={`w-${width} h-${height} z-10 object-cover rounded-md ${
+					className ?? ""
+				}`}
 				alt={alt}
 			/>
 			<div

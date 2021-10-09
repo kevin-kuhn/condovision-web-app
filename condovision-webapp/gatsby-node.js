@@ -205,7 +205,7 @@ exports.createPages = ({ actions }) => {
 		createPage({
 			path: `/${service.path}`,
 			component: require.resolve(`./src/templates/service-template.jsx`),
-			context: { service },
+			context: { imagePath: service.imagePath, service },
 		})
 	})
 }

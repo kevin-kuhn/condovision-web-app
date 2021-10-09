@@ -5,19 +5,19 @@ import * as styles from "./styles.module.css"
 import { Container, Text, ImageStyled, Button } from "@components"
 import { WhatsAppIcon } from "@assets/icons"
 
-const ServicesContent = ({ text, title, imagePath }) => {
+const ServicesContent = ({ text, title, imagePath, fluid }) => {
 	return (
 		<Container>
 			<div className={styles.content}>
 				<div className={styles.imageBox}>
 					<ImageStyled
-						src={`../../../../../images/${imagePath}`}
+						fluid={fluid}
 						alt={`Representação do serviço ${title}`}
 					/>
 				</div>
 				<div className={styles.textBox}>
 					<Text>
-						<div dangerouslySetInnerHTML={{ __html: text }} />
+						<span dangerouslySetInnerHTML={{ __html: text }} />
 					</Text>
 
 					<div className={styles.buttonBox}>

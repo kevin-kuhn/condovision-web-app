@@ -4,18 +4,19 @@ import ServicesHeader from "./services-header"
 import ServicesContent from "./services-content"
 import SeeToo from "./see-too"
 
-const Services = ({ service }) => {
-	const { name, imageHeaderPath, imagePath, text } = service
+const Services = ({ service, images }) => {
+	const { name, imagePath, text } = service
+	const { bodyImage, headerImage } = images
 
 	return (
 		<>
 			<ServicesHeader
 				title={name}
 				text={text}
-				imageHeaderPath={imageHeaderPath}
+				fluid={headerImage.fluid}
 				imagePath={imagePath}
 			/>
-			<ServicesContent title={name} text={text} imagePath={imagePath} />
+			<ServicesContent title={name} text={text} fluid={bodyImage.fluid} />
 			<SeeToo serviceName={name} />
 		</>
 	)

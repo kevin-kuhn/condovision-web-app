@@ -8,6 +8,7 @@ module.exports = {
 		"gatsby-plugin-postcss",
 		"gatsby-plugin-react-helmet",
 		"gatsby-transformer-remark",
+		"gatsby-image",
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {

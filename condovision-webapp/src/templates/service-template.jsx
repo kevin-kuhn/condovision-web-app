@@ -5,14 +5,17 @@ import { graphql } from "gatsby"
 import Layout from "@components/layout"
 import { Services } from "@components/pages"
 
+import { useDynamicImage } from "@hooks/useDynamicImage"
+
 const ServicesPage = ({ pageContext: { service }, data }) => {
-	console.log(data)
+	const { images } = useDynamicImage(data, service)
+
 	return (
 		<Layout
 			title={`${service.name} | Condovision - Sistemas Eletrônicos`}
 			description={service.shortDescription}
 		>
-			<Services service={service} />
+			<Services service={service} images={images} />
 		</Layout>
 	)
 }
@@ -25,12 +28,13 @@ export const query = graphql`
 					id
 					gatsbyImageData
 					fluid {
+						src
+						srcSet
 						base64
-						tracedSVG
-						srcWebp
-						srcSetWebp
+						aspectRatio
 						originalImg
 						originalName
+						sizes
 					}
 				}
 			}
