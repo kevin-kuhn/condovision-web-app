@@ -40,6 +40,7 @@ const Header = () => {
 					className={styles.div}
 					onClick={closeHeader}
 					onKeyDown={closeHeader}
+					aria-label="menu"
 					role='button'
 					tabIndex={0}
 				>
@@ -57,6 +58,7 @@ const Header = () => {
 				onClick={toggleIsOpen}
 				className={styles.hamburger}
 				onKeyDown={toggleIsOpen}
+				aria-label="menu"
 				role='button'
 				tabIndex={0}
 			>
@@ -71,6 +73,7 @@ const Header = () => {
 								onKeyDown={toggleIsOpen}
 								className={styles.title}
 								role='button'
+								aria-label="menu"
 								tabIndex={0}
 							>
 								Página Inicial
