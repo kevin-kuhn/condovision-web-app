@@ -17,5 +17,14 @@ module.exports = {
 			},
 			__key: "images",
 		},
+		{
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: `gatsby-starter-default`,
+				short_name: `starter`,
+				start_url: `/`,
+				icon: `src/assets/images/icon.jpg`,
+			},
+		},
 	],
 }

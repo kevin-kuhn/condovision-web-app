@@ -11,7 +11,6 @@ const ServicesList = () => {
 		<Container>
 			<TitleSection
 				title='Nossos Serviços'
-				subtitle='Nós disponibilizamos'
 				link='/cameras'
 				linkDescription='Ver todos os serviços >'
 			/>
