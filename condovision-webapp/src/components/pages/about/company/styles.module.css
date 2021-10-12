@@ -1,0 +1,49 @@
+.cards {
+	@apply flex
+		flex-wrap
+		flex-col
+		items-center
+		mt-16;
+}
+
+.container {
+	@apply flex 
+		flex-col
+		max-w-md
+		mb-10;
+}
+
+.a {
+	@apply h-full;
+}
+
+.icon {
+	@apply text-primary
+		pr-3;
+}
+
+.infos {
+	@apply flex
+		justify-between
+		flex-col;
+}
+
+.title {
+	@apply flex 
+		text-primary 
+		items-center 
+		font-medium 
+		text-lg;
+}
+
+.text {
+	@apply pl-9 pt-1;
+}
+
+
+@screen lg {
+	.cards {
+		@apply flex-row
+			justify-center;
+	}
+}

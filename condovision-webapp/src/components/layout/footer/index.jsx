@@ -19,7 +19,7 @@ const Footer = () => {
 					<span className={styles.icon}>
 						<MapPinIcon size={25} />
 					</span>
-					<Text>Brasil</Text>
+					<Text>SC-406, 1160 - Morro das Pedras Florianópolis</Text>
 				</div>
 				<a
 					href='tel:+555193300274'

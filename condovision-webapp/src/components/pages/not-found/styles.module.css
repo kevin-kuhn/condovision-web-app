@@ -1,0 +1,19 @@
+.section {
+	@apply flex
+		w-screen
+		h-screen
+		items-center
+		justify-center;
+}
+
+.infos {
+	@apply text-base
+		text-primary;
+}
+
+.title {
+	@apply text-xl
+		mb-5
+		text-primary;
+	
+}

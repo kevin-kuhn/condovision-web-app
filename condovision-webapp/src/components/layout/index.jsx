@@ -6,7 +6,6 @@ import Footer from "./footer"
 
 import * as styles from "./styles.module.css"
 
-//TODO: AJUSTAR META TAGS
 const Layout = ({ title, description, children }) => {
 	return (
 		<>
@@ -18,10 +17,10 @@ const Layout = ({ title, description, children }) => {
 				<meta charSet='utf-8' />
 				<meta name='description' content={description} />
 				<meta http-equiv='content-language' content='pt-br' />
-				<meta name='author' content='Kevin Kuhn' />
+				<meta name='author' content='github.com/kevin-kuhn' />
 				<meta
 					name='keywords'
-					content='segurança eletrônica alarmes câmeras instalação automação motores elétricos'
+					content='condovision segurança eletrônica alarmes câmeras instalação automação motores elétricos'
 				/>
 				<title>{title}</title>
 			</Helmet>

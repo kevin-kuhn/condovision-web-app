@@ -8,7 +8,7 @@ import { Services } from "@components/pages"
 import { useDynamicImage } from "@hooks/useDynamicImage"
 
 const ServicesPage = ({ pageContext: { service }, data }) => {
-	const { images } = useDynamicImage(data, service)
+	const { images } = useDynamicImage(data, service.imagePath, service.imageHeaderPath)
 
 	return (
 		<Layout

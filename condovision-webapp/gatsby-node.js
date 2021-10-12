@@ -148,7 +148,7 @@ exports.createPages = ({ actions }) => {
 			name: "Interfonia por vídeo",
 			path: "interfonia-video",
 			imagePath: "interfonia-ip.jpg",
-			imageHeaderPath: "interfonia-ip-header.png",
+			imageHeaderPath: "interfonia-ip-header.jpg",
 			shortDescription: `Mais conhecido como vídeo porteiro, a interfonia por vídeo é semelhante a interfonia comum, porém com a diferença 
 			que além de conversar com a pessoa pelo interfone é também possível ver a pessoa. Isso traz mais segurança na hora 
 			de atender o interfone.`,
@@ -203,7 +203,7 @@ exports.createPages = ({ actions }) => {
 
 	serviceData.forEach(service => {
 		createPage({
-			path: `/${service.path}`,
+			path: `/servicos/${service.path}`,
 			component: require.resolve(`./src/templates/service-template.jsx`),
 			context: { imagePath: service.imagePath, service },
 		})

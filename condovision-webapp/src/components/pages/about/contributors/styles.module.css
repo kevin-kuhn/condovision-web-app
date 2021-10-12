@@ -1,0 +1,30 @@
+.contributors {
+	@apply flex
+		flex-col
+		justify-between
+		gap-14
+		items-center
+		pb-11;
+}
+
+.info {
+	@apply flex
+		flex-col
+		max-w-screen-2xl;
+}
+
+.name {
+	@apply flex 
+		text-primary 
+		items-center 
+		font-medium 
+		text-lg
+		mb-3;
+}
+
+@screen lg {
+	.contributors {
+		@apply flex-row
+			justify-center;
+	}
+}

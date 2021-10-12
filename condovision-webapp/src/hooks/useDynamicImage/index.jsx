@@ -1,17 +1,19 @@
 import * as React from "react"
 
-export const useDynamicImage = (data, service) => {
-	const { allImageSharp: { edges } } = data
-
-	const findInEdge = (name) => 
-			edges.find(edge => edge.node.fluid.originalName === name)?.node
+export const useDynamicImage = (data, imagePath, imageHeaderPath) => {
+	const {
+		allImageSharp: { edges },
+	} = data
 
 	const images = React.useMemo(() => {
-		const bodyImage = findInEdge(service.imagePath)
-		const headerImage = findInEdge(service.imageHeaderPath)
+		const findInEdge = name =>
+			edges.find(edge => edge.node.fluid.originalName === name)?.node
+
+		const bodyImage = findInEdge(imagePath) ?? {}
+		const headerImage = findInEdge(imageHeaderPath) ?? {}
 
 		return { bodyImage, headerImage }
-	}, [service])
+	}, [imagePath, imageHeaderPath, edges])
 
 	return { images }
 }

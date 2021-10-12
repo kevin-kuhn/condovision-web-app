@@ -21,7 +21,7 @@ const ServiceCard = props => {
 					<span className={styles.link}>
 						<Link to={path}>Saiba mais</Link>
 					</span>
-					<button className={styles.button}>
+					<button className={styles.button} aria-label='orçamento'>
 						<a
 							className={styles.a}
 							aria-label='Contato por whatsapp'
