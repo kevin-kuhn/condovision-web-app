@@ -203,7 +203,7 @@ exports.createPages = ({ actions }) => {
 
 	serviceData.forEach(service => {
 		createPage({
-			path: `/servicos/${service.path}`,
+			path: `/${service.path}`,
 			component: require.resolve(`./src/templates/service-template.jsx`),
 			context: { imagePath: service.imagePath, service },
 		})

@@ -22,7 +22,6 @@ const NavOption = ({ children, isSelected }) => {
 	)
 }
 
-//TODO: AJUSTAR STRING WHATS
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false)
 
@@ -36,7 +35,7 @@ const Header = () => {
 
 	return (
 		<header className={styles.header}>
-			<Link to='/'>
+			<Link aria-label="redirecionar para outra página" to='/'>
 				<div
 					className={styles.div}
 					onClick={closeHeader}
@@ -66,7 +65,7 @@ const Header = () => {
 			<nav className={`${styles.nav} ${isOpen ? styles.navTranslate : ""}`}>
 				<ul className={styles.ul}>
 					<NavOption>
-						<Link to='/'>
+						<Link aria-label='redirecionar para outra página' to='/'>
 							<div
 								onClick={closeHeader}
 								onKeyDown={toggleIsOpen}
@@ -125,7 +124,7 @@ const Header = () => {
 						</ul>
 					</NavOption>
 					<NavOption>
-						<Link to='/sobre-nos'>
+						<Link aria-label='redirecionar para outra página' to='/sobre-nos'>
 							<div className={styles.title}>Sobre nós</div>
 						</Link>
 					</NavOption>

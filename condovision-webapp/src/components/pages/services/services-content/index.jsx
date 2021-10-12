@@ -5,7 +5,7 @@ import * as styles from "./styles.module.css"
 import { Container, Text, ImageStyled, Button } from "@components"
 import { WhatsAppIcon } from "@assets/icons"
 
-const ServicesContent = ({ text, title, imagePath, fluid }) => {
+const ServicesContent = ({ text, title, fluid }) => {
 	return (
 		<Container>
 			<div className={styles.content}>
@@ -25,6 +25,7 @@ const ServicesContent = ({ text, title, imagePath, fluid }) => {
 							<a
 								className={styles.a}
 								aria-label="Contato por whatsapp"
+								role="button"
 								href={`https://api.whatsapp.com/send?text=${encodeURI(
 									`Olá, gostaria de um orçamento para: ${title}.`
 								)}&phone=555193300274`}
