@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/kevin-kuhn/condovision-web-app">
     <img src="condovision-webapp/src/assets/images/logo.png" alt="Logo" width="300" height="80">
   </a>
 
@@ -9,7 +9,7 @@
   <p align="center">
     Static appication to the company show their services.
     <br />
-    <a href="https://github.com/kevin-kuhn/condovision-web-app/condovision-webapp"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kevin-kuhn/condovision-web-app/tree/master/condovision-webapp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://condovisionwebapp.gatsbyjs.io">View Demo</a>
