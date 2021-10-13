@@ -9,7 +9,7 @@
   <p align="center">
     Static appication to the company show their services.
     <br />
-    <a href="https://github.com/kevin-kuhn/condovision-web-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kevin-kuhn/condovision-web-app/condovision-webapp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://condovisionwebapp.gatsbyjs.io">View Demo</a>
@@ -20,24 +20,21 @@
 
 ## About The Project
 
-<img src="condovision-webapp/src/assets/images/audit.jpg" alt="audit" width="300" height="80">
+<img src="condovision-webapp/src/assets/images/audit.jpeg" alt="audit">
 
+This app was developed focusing in SEO and Performance, and the layout was created together with the company. The figma layout can be founded [here](https://www.figma.com/file/WSFHVhTFSpjDGMGw2W4Acz/Condovision?node-id=0%3A1).
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+The audit results are from [we.dev](https://web.dev/measure/).  
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
+* [Gatsby.js](https://www.gatsbyjs.com/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [PostCSS](https://postcss.org/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
