@@ -34,7 +34,7 @@ const Header = () => {
 	}
 
 	return (
-		<header className={styles.header}>
+		<header className={styles.header} >
 			<Link aria-label='redirecionar para outra página' to='/'>
 				<div
 					className={styles.div}
