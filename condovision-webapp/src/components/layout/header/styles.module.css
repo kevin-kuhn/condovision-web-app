@@ -146,6 +146,7 @@
 			justify-self-end
 			h-24;
 		min-height: unset;
+		overflow-y: visible;
 		background-color: transparent;
 		transform: translateY(0%);
 	}
