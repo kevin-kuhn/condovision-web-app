@@ -363,6 +363,71 @@ export const WhatsAppIcon = ({ size = 6, className }) => (
 	</svg>
 )
 
+export const SunIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		className={`h-${size} w-${size}`}
+		fill='none'
+		viewBox='0 0 24 24'
+		stroke='currentColor'
+	>
+		<path
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			strokeWidth={2}
+			d='M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z'
+		/>
+	</svg>
+)
+
+export const LightIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		className={`h-${size} w-${size}`}
+		fill='none'
+		viewBox='0 0 24 24'
+		stroke='currentColor'
+	>
+		<path
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			strokeWidth={2}
+			d='M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z'
+		/>
+	</svg>
+)
+
+export const StopIcon = ({ size = 6 }) => (
+	<svg
+		xmlns='http://www.w3.org/2000/svg'
+		className={`h-${size} w-${size}`}
+		fill='none'
+		viewBox='0 0 24 24'
+		stroke='currentColor'
+	>
+		<path
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			strokeWidth={2}
+			d='M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636'
+		/>
+	</svg>
+)
+
+export const ControlIcon = ({ size = 24 }) => (
+	<svg
+		width={size}
+		height={size}
+		viewBox='0 0 24 24'
+		fill='currentColor'
+	>
+		<g>
+			<path fill='none' d='M0 0h24v24H0z' />
+			<path d='M17 12a1 1 0 0 1 1 1v9h-2v-8H8v8H6v-9a1 1 0 0 1 1-1h10zm-5 4v2h-2v-2h2zm0-10a6 6 0 0 1 5.368 3.316l-1.79.895a4 4 0 0 0-7.157 0l-1.789-.895A6 6 0 0 1 12 6zm0-4a10 10 0 0 1 8.946 5.527l-1.789.895A8 8 0 0 0 12 4a8 8 0 0 0-7.157 4.422l-1.79-.895A10 10 0 0 1 12 2z' />
+		</g>
+	</svg>
+)
+
 export const HelmetIcon = ({ size = 25 }) => (
 	<svg
 		width={size}
