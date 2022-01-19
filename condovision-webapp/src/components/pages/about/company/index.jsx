@@ -23,7 +23,7 @@ const Company = () => {
 	return (
 		<Container>
 			<TitleSection title='A Empresa' />
-			<Text>
+			{/* <Text>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -31,21 +31,24 @@ const Company = () => {
 				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 				mollit anim id est laborum.
-			</Text>
+			</Text> */}
 			<div className={styles.cards}>
 				<CardAbout
 					name='Missão'
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+					description='Levar segurança, praticidade e economia aos nossos clientes
+					através de projetos de alta qualidade e com tecnologias de ponta.'
 					icon={<TargetIcon />}
 				/>
 				<CardAbout
 					name='Visão'
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+					description='Ser uma empresa referência no ramo de segurança eletrônica que seja sempre lembrada
+					por um serviço bem feito e por um pós-venda perfeito.'
 					icon={<EyeIcon />}
 				/>
 				<CardAbout
 					name='Valores'
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+					description='Assumir a responsabilidade de aceitar grandes desafios e conduzi-los até o final,
+					entregando o nosso melhor: honestidade, conhecimento e profissionalismo'
 					icon={<ValueIcon />}
 				/>
 			</div>

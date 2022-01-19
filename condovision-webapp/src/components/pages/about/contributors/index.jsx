@@ -12,13 +12,14 @@ const Contributors = ({ images }) => {
 				<div className={styles.info}>
 					<h2 className={styles.name}>André Parizotto</h2>
 					<Text>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-						culpa qui officia deserunt mollit anim id est laborum.
+						Formado Técnico em Eletrônica em 2005 pelo SENAI e com diversos
+						cursos de aperfeiçoamento na área de eletrônica. São 16 anos
+						contínuos atuando no ramo de manutenção, suporte técnico e vendas
+						das diversas marcas do mercado. Em 2015 encontrou sua grande paixão
+						profissional: a instalação de sistemas de segurança eletrônica. A
+						Condovision Sistemas Eletrônicos foi criada pela paixão e pelo
+						intuito de suprir uma demanda muito grande na área de sistemas de
+						segurança.
 					</Text>
 				</div>
 				<ImageStyled
