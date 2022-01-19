@@ -9,7 +9,11 @@ import {
 	VideoIcon,
 	IpIcon,
 	MobileIcon,
-	HelmetIcon
+	HelmetIcon,
+	SunIcon,
+	LightIcon,
+	ControlIcon,
+	StopIcon
 } from "@assets/icons"
 
 export const SERVICES = [
@@ -86,7 +90,36 @@ export const SERVICES = [
 		name: "Contrato de Manutenção",
 		path: "/contrato-manuntencao",
 		icon: <HelmetIcon size={22} />,
-		shortDescription: `Os projetos IP são importantes onde é necessário um número muito grande de câmeras como grandes condomínios,
-		empresas, estádios e até mesmo cidades. Desenvolvemos e executamos os projetos IP podendo ser de câmeras ou de controles de acesso.`,
+		shortDescription: `O contrato de manutenção serve para dar mais comodidade e tranquilidade ao seu sistema de segurança eletrônica,
+		controles de acesso, motores de portão e elétrica geral dependendo do sistema a ser contratado.
+		É realizado visitadas periódicas para revisão e manutenção.`,
+	},
+	{
+		name: "Energia Solar",
+		path: "/energia-solar",
+		icon: <SunIcon />,
+		shortDescription: `Transforme sua residência em um ambiente mais sustentável, moderno e que também reflita na economia das despesas
+		com a conta de luz. Na sua empresa os custos com energia elétrica pode ser um grande vilão no orçamento final do mês.`,
+	},
+	{
+		name: "Luz de emergência",
+		path: "/luz-emergencia",
+		icon: <LightIcon />,
+		shortDescription: `Trabalhamos com luz de emergência para prédios, residências, condomínios e empresas.
+		A luz de emergência é muito importante no caso de falta de energia elétrica, para que os locais se iluminem
+		principalmente corredores e escadarias.`,
+	},
+	{
+		name: "Tag e controle remoto",
+		path: "/tag-controle-remoto",
+		icon: <ControlIcon />,
+		shortDescription: `Trabalhamos com as melhores marcas de tag e de controle remoto para sua comodidade.
+		Cópias e cadastros de tags(chaveiros) e de controle remotos.`,
+	},
+	{
+		name: "Cancelas",
+		path: "/cancelas",
+		icon: <StopIcon />,
+		shortDescription: `Instalação de cancelas para estacionamento, pedágios e demais pavimentos.`,
 	},
 ]

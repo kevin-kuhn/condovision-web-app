@@ -196,8 +196,56 @@ exports.createPages = ({ actions }) => {
 			path: "contrato-manuntencao",
 			imagePath: "manutencao.jpg",
 			imageHeaderPath: "manutencao-header.jpg",
-			shortDescription: ``,
-			text: ``,
+			shortDescription: `O contrato de manutenção serve para dar mais comodidade e tranquilidade ao seu sistema de segurança eletrônica,
+			controles de acesso, motores de portão e elétrica geral dependendo do sistema a ser contratado.
+			É realizado visitadas periódicas para revisão e manutenção.`,
+			text: `O contrato de manutenção serve para dar mais comodidade e tranquilidade ao seu sistema de segurança eletrônica,
+			controles de acesso, motores de portão e elétrica geral dependendo do sistema a ser contratado.<br />
+			É realizado visitadas periódicas para revisão e manutenção preventiva para que seu sistema opere sempre em bom
+			funcionamento evitando defeitos recorrentes.`,
+		},
+		{
+			name: "Cancelas",
+			path: "cancelas",
+			imagePath: "cancelas.jpg",
+			imageHeaderPath: "cancelas-header.jpg",
+			shortDescription: `Instalação de cancelas para estacionamento, pedágios e demais pavimentos.`,
+			text: `Instalação de cancelas para estacionamento, pedágios e demais pavimentos.`,
+		},
+		{
+			name: "Energia solar",
+			path: "energia-solar",
+			imagePath: "energia-solar.jpg",
+			imageHeaderPath: "energia-solar-header.jpg",
+			shortDescription: `Transforme sua residência em um ambiente mais sustentável, moderno e que também reflita na economia das despesas
+			com a conta de luz. Na sua empresa os custos com energia elétrica pode ser um grande vilão no orçamento final do mês.`,
+			text: `Transforme sua residência em um ambiente mais sustentável, moderno e que também reflita na economia das despesas
+			com a conta de luz. Na sua empresa os custos com energia elétrica pode ser um grande vilão no orçamento final do mês,
+			por isso, a energia solar gera uma grande economia podendo chegar até 95%.<br />
+			No agro negócio ou indústria os custos com enegia elétrica podem refletir o preço final dos produtos, nesse caso a energia solar
+			é o melhor investimento.<br />
+			Conquiste sua independência energética instalando um sistema de energia solar com a CONDOVISION. `,
+		},
+		{
+			name: "Luz de emergência",
+			path: "luz-emergencia",
+			imagePath: "luz-emergencia.png",
+			imageHeaderPath: "luz-emergencia-header.jpeg",
+			shortDescription: `Trabalhamos com luz de emergência para prédios, residências, condomínios e empresas.
+			A luz de emergência é muito importante no caso de falta de energia elétrica, para que os locais se iluminem
+			principalmente corredores e escadarias.`,
+			text: `Trabalhamos com luz de emergência para prédios, residências, condomínios e empresas.
+			A luz de emergência é muito importante no caso de falta de energia elétrica, para que os locais se iluminem
+			principalmente corredores e escadarias.`,
+		},
+		{
+			name: "Tag e controle remoto",
+			path: "tag-controle-remoto",
+			imagePath: "tag.jpg",
+			imageHeaderPath: "tag-header.jpg",
+			shortDescription: `Trabalhamos com as melhores marcas de tag e de controle remoto para sua comodidade.`,
+			text: `Trabalhamos com as melhores marcas de tag e de controle remoto para sua comodidade.<br />
+			Cópias e cadastros de tags(chaveiros) e de controle remotos.`,
 		},
 	]
 
