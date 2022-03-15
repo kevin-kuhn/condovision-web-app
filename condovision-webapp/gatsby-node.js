@@ -8,10 +8,10 @@ exports.createPages = ({ actions }) => {
 			imageHeaderPath: "camera-header.jpg",
 			shortDescription: `As câmeras de monitoramento oferecem um sistema de gravação de imagens onde tudo oque acontece em um determinado local 
 			fica registrado em um gravador de vídeo digital (DVR) podendo ser acessado a qualquer momento através de um celular ou 
-			monitor de vìdeo e recuperar imagens de algum fato ocorrido naquele local.`,
+			monitor de video e recuperar imagens de algum fato ocorrido naquele local.`,
 			text: `As câmeras de monitoramento oferecem um sistema de gravação de imagens onde tudo oque acontece em um determinado local 
 			fica registrado em um gravador de vídeo digital (DVR) podendo ser acessado a qualquer momento através de um celular ou 
-			monitor de vìdeo e recuperar imagens de algum fato ocorrido naquele local.<br /><br />
+			monitor de video e recuperar imagens de algum fato ocorrido naquele local.<br /><br />
 			
 			É mais conhecido como CFTV (circuito fechado de televisão) e muito usado em residências, condomínios e empresas para monitorar 
 			pontos estratégicos e registrar qualquer evento acontecido naquele local como roubos, furtos e vandalismo.<br /><br />
@@ -132,15 +132,15 @@ exports.createPages = ({ actions }) => {
 			text: `Com a vida moderna também veio a necessidade de comunicação. Nada melhor que o sistema de interfonia para resolver esse problema.
 			Existem alguns tipos de sistemas de interfones e agora você pode entender qual sistema irá lhe atender melhor.<br /><br />
 			
-			Interfonia residencial
+			<strong>Interfonia residencial</strong><br />
 			É aquela onde existe um painel de rua onde a pessoa toca o interfone e é feito uma chamada para outro
 			interfone dentro de uma resisdência ou até mesmo um comércio.<br /><br />
 			
-			Interfonia coletiva
+			<strong>Interfonia coletiva</strong><br />
 			Muito usada em condomínios ou prédios comerciais onde no painel de rua a pessoa pode escolher para qual apartamento
 			ou sala comercial deseja ligar. Também é possível fazer chamadas entre apartamentos ou salas comerciais.<br /><br />
 			
-			Interfonia GSM
+			<strong>Interfonia GSM</strong><br />
 			Funciona igual as outras mas com a diferença de ao invés de chamar no interfone dentro da casa ou comércio, chama direto no celular
 			através de uma ligação normal.`,
 		},
@@ -157,21 +157,21 @@ exports.createPages = ({ actions }) => {
 			de atender o interfone.
 			Como na interfonia comum, a interfonia por vídeo também existem alguns sistemas diferentes.<br /><br />
 			
-			Interfonia por vídeo residencial
+			<strong>Interfonia por vídeo residencial</strong><br />
 			É um painel de rua com uma câmera acoplada onde a pessoa toca o interfone e dentro da residência ou de um comércio
 			é possível ver quem está interfonando antes mesmo de atender. A pessoa é vista através de uma tela acoplada no interfone interno.<br /><br />
 			
-			Interfonia por vídeo coletiva
+			<strong>Interfonia por vídeo coletiva</strong><br />
 			Usada em condomínios e prédios funciona da mesma forma. A pessoa pode escolher para qual apartamento ou sala comercial
 			deseja chamar e cada apartamento ou sala comercial tem um interfone com uma tela acoplada onde é possível ver quem está chamando
 			seja um entregador, um parente, um funcionário ou um desconhecido.<br /><br />
 			
-			Interfonia por vídeo coletiva Híbrida
+			<strong>Interfonia por vídeo coletiva Híbrida</strong><br />
 			Funciona da mesma forma que a interfonia por vídeo coletiva. A diferença que é usada onde já existe sistema de interfonia coletiva comum
 			e se deseja apenas adicionar um sistema por vídeo sem a necessidade de trocar todo o sistema de interfonia comum já existente.
 			Dessa forma reduzindo custos.<br /><br />
 			
-			Interfonia por vídeo coletiva IP
+			<strong>Interfonia por vídeo coletiva IP</strong><br />
 			Interfonia por vídeo de alta tecnologia.Funciona igual a interfonia por vídeo coletiva porém com áudio e vídeo de alta resolução. 
 			Tem um diferencial ainda de caso a pessoa não atender o interfone no apartamento ou na sala comercial a 
 			chamada será direcionada para o celular da pessoa através do aplicativo e poderá ser visto a imagem de quem está interfonando, 

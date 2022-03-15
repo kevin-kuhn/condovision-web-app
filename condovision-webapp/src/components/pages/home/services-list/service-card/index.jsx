@@ -36,7 +36,7 @@ const ServiceCard = props => {
 							target='_blank'
 							rel='noreferrer'
 						>
-							Faça um orçamento!
+							Solicite um orçamento!
 						</a>
 					</button>
 				</div>

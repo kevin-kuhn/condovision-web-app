@@ -23,7 +23,7 @@ export const SERVICES = [
 		icon: <CameraIcon />,
 		shortDescription: `As câmeras de monitoramento oferecem um sistema de gravação de imagens onde tudo oque acontece em um determinado local 
 		fica registrado em um gravador de vídeo digital (DVR) podendo ser acessado a qualquer momento através de um celular ou 
-		monitor de vìdeo e recuperar imagens de algum fato ocorrido naquele local.`,
+		monitor de video e recuperar imagens de algum fato ocorrido naquele local.`,
 	},
 	{
 		name: "Cerca elétrica",
