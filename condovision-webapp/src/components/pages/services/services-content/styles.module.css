@@ -40,7 +40,7 @@
 .button {
 	@apply text-base 
 		text-white 
-		bg-primary
+		bg-action
 		p-2 
 		rounded-md;
 }

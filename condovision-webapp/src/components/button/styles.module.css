@@ -1,5 +1,5 @@
 .button {
-	@apply bg-primary
+	@apply
 		text-base
 		px-3 
 		p-2

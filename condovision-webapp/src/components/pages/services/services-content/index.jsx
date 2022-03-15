@@ -21,7 +21,7 @@ const ServicesContent = ({ text, title, fluid }) => {
 					</Text>
 
 					<div className={styles.buttonBox}>
-						<Button>
+						<Button className="bg-action">
 							<a
 								className={styles.a}
 								aria-label="Contato por whatsapp"

@@ -54,7 +54,7 @@
 }
 
 .button {
-	@apply bg-primary 
+	@apply bg-action 
 		px-3 
 		py-2
 		rounded-tl-md
