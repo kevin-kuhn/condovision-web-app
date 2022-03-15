@@ -32,7 +32,7 @@ const ServicesContent = ({ text, title, fluid }) => {
 								target='_blank'
 								rel='noreferrer'
 							>
-								Clique aqui para fazer um orçamento gratuito!
+								Clique aqui para solicitar um orçamento gratuito!
 								<WhatsAppIcon size={20} className={styles.icon}/>
 							</a>
 						</Button>
