@@ -2,9 +2,9 @@ import React from "react"
 import {
 	PhoneIcon,
 	MailIcon,
-	FacebookIcon,
+	//FacebookIcon,
 	InstagramIcon,
-	YoutubeIcon,
+	//YoutubeIcon,
 	MapPinIcon,
 } from "@assets/icons"
 import { Text } from "@components"
@@ -22,18 +22,18 @@ const Footer = () => {
 					<Text>Brasil</Text>
 				</div>
 				<a
-					href='tel:+555193300274'
+					href='tel:+5548988634844'
 					aria-label='Contato por telefone'
 					className={styles.infoData}
 				>
 					<span className={styles.icon}>
 						<PhoneIcon />
 					</span>
-					<Text>+55 51 99330-0274</Text>
+					<Text>+55 48 98863-4844</Text>
 				</a>
 				<a
 					aria-label='Contato por email'
-					href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
+					href={`mailto:andre2020sistemas@outlook.com?subject=${encodeURI(
 						"Gostaria de um orçamento!"
 					)}`}
 					className={styles.infoData}
@@ -41,11 +41,11 @@ const Footer = () => {
 					<span className={styles.icon}>
 						<MailIcon size={25} />
 					</span>
-					<Text>parizotto1987@outlook.com</Text>
+					<Text>andre2020sistemas@outlook.com</Text>
 				</a>
 			</section>
 			<section className={styles.socialSection}>
-				<a
+				{/* <a
 					href='https://www.facebook.com/'
 					target='_blank'
 					aria-label='Facebook'
@@ -56,9 +56,9 @@ const Footer = () => {
 						<FacebookIcon size={25} />{" "}
 					</span>
 					<span className={styles.deskInfo}>Condovision SS</span>
-				</a>
+				</a> */}
 				<a
-					href='https://www.instagram.com/'
+					href='https://instagram.com/condovision'
 					target='_blank'
 					aria-label='Instagram'
 					rel='noreferrer'
@@ -69,7 +69,7 @@ const Footer = () => {
 					</span>{" "}
 					<span className={styles.deskInfo}>Condovision SS</span>
 				</a>
-				<a
+				{/* <a
 					href='https://www.youtube.com/'
 					target='_blank'
 					rel='noreferrer'
@@ -80,7 +80,7 @@ const Footer = () => {
 						<YoutubeIcon size={25} />
 					</span>
 					<span className={styles.deskInfo}>Condovision SS</span>
-				</a>
+				</a> */}
 			</section>
 		</footer>
 	)

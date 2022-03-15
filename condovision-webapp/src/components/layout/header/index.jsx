@@ -106,7 +106,7 @@ const Header = () => {
 									aria-label='Contato whatsapp'
 									href={`https://api.whatsapp.com/send?text=${encodeURI(
 										"Olá vim atraves do site"
-									)}&phone=555193300274`}
+									)}&phone=48988634844`}
 									target='_blank'
 									rel='noreferrer'
 								>
@@ -116,7 +116,7 @@ const Header = () => {
 							<li className={styles.liSecondary}>
 								<a
 									aria-label='Contato email'
-									href={`mailto:parizotto1987@outlook.com?subject=${encodeURI(
+									href={`mailto:andre2020sistemas@outlook.com?subject=${encodeURI(
 										"Olá vim atraves do site"
 									)}`}
 									className={styles.a}

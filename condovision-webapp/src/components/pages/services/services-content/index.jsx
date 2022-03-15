@@ -28,7 +28,7 @@ const ServicesContent = ({ text, title, fluid }) => {
 								role="button"
 								href={`https://api.whatsapp.com/send?text=${encodeURI(
 									`Olá, gostaria de um orçamento para: ${title}.`
-								)}&phone=555193300274`}
+								)}&phone=48988634844`}
 								target='_blank'
 								rel='noreferrer'
 							>

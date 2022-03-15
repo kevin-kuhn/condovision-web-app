@@ -23,17 +23,17 @@
 		bg-primary;
 }
 
-.socialSection .infoData:nth-child(1) .icon {
+/* .socialSection .infoData:nth-child(1) .icon {
 	background-color: #1871E7;
-}
+} */
 
-.socialSection .infoData:nth-child(2) .icon {
+.socialSection .infoData:nth-child(1) .icon {
 	background-color: #aa1647;
 }
-
+/* 
 .socialSection .infoData:nth-child(3) .icon {
 	background-color: #F20000;
-}
+} */
 
 .socialSection .infoData {
 	@apply flex
