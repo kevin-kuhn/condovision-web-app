@@ -1,5 +1,8 @@
 //site metadata removed
 module.exports = {
+	siteMetadata: {
+    siteUrl: 'https://condovisionwebapp.gatsbyjs.io/'
+  },
 	plugins: [
 		"gatsby-plugin-gatsby-cloud",
 		"gatsby-plugin-image",
@@ -26,5 +29,13 @@ module.exports = {
 				icon: `src/assets/images/icon.jpg`,
 			},
 		},
+		{
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://condovisionwebapp.gatsbyjs.io/',
+        sitemap: 'https://condovisionwebapp.gatsbyjs.io/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
 	],
 }
