@@ -22,6 +22,7 @@ const Layout = ({ title, description, children }) => {
 					name='keywords'
 					content='condovision segurança eletrônica alarmes câmeras instalação automação motores elétricos'
 				/>
+				<meta name="google-site-verification" content="1lf23HCBNF2LzEpp1CCH_O6JOZUbMFrPa0If3gfz3ZQ" />
 				<title>{title}</title>
 			</Helmet>
 
