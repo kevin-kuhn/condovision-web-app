@@ -36,7 +36,7 @@ module.exports = {
 			options: {
 				host: "https://condovisionwebapp.gatsbyjs.io",
 				sitemap:
-					"https://condovisionwebapp.gatsbyjs.io/sitemap/sitemap-index.xml",
+					"https://condovisionwebapp.gatsbyjs.io/sitemap.xml",
 				policy: [{ userAgent: "*", allow: "/" }],
 			},
 		},
