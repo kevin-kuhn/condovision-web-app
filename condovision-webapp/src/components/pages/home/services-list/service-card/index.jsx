@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import { PHONE_NUMBER } from "@constants/infos"
+
 import * as styles from "./styles.module.css"
 import { Text } from "@components"
 
@@ -32,7 +34,7 @@ const ServiceCard = props => {
 							role="button"
 							href={`https://api.whatsapp.com/send?text=${encodeURI(
 								`Olá, gostaria de um orçamento para: ${name}.`
-							)}&phone=48988634844`}
+							)}&phone=${PHONE_NUMBER}`}
 							target='_blank'
 							rel='noreferrer'
 						>

@@ -5,6 +5,8 @@ import * as styles from "./styles.module.css"
 import { Container, Text, ImageStyled, Button } from "@components"
 import { WhatsAppIcon } from "@assets/icons"
 
+import { PHONE_NUMBER } from "@constants/infos"
+
 const ServicesContent = ({ text, title, fluid }) => {
 	return (
 		<Container>
@@ -28,7 +30,7 @@ const ServicesContent = ({ text, title, fluid }) => {
 								role="button"
 								href={`https://api.whatsapp.com/send?text=${encodeURI(
 									`Olá, gostaria de um orçamento para: ${title}.`
-								)}&phone=48988634844`}
+								)}&phone=${PHONE_NUMBER}`}
 								target='_blank'
 								rel='noreferrer'
 							>

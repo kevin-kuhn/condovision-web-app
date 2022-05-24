@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import { ArrowIcon, WhatsAppIcon, MailIcon } from "@assets/icons"
 import { SERVICES } from "@constants/services"
+import { PHONE_NUMBER } from "@constants/infos"
 
 import * as styles from "./styles.module.css"
 
@@ -106,7 +107,7 @@ const Header = () => {
 									aria-label='Contato whatsapp'
 									href={`https://api.whatsapp.com/send?text=${encodeURI(
 										"Olá vim atraves do site"
-									)}&phone=48988634844`}
+									)}&phone=${PHONE_NUMBER}`}
 									target='_blank'
 									rel='noreferrer'
 								>

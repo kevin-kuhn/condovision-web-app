@@ -9,6 +9,8 @@ import {
 } from "@assets/icons"
 import { Text } from "@components"
 
+import { PHONE_NUMBER } from "@constants/infos"
+
 import * as styles from "./styles.module.css"
 
 const Footer = () => {
@@ -22,7 +24,7 @@ const Footer = () => {
 					<Text>Brasil</Text>
 				</div>
 				<a
-					href='tel:+5548988634844'
+					href={`tel:${PHONE_NUMBER}`}
 					aria-label='Contato por telefone'
 					className={styles.infoData}
 				>
